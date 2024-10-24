@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/d4l3k/go-pry/pry"
+	"github.com/brian-lai/go-pry/pry"
 )
 
 func main() {

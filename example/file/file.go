@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/d4l3k/go-pry/pry"
+	"github.com/brian-lai/go-pry/pry"
 
 	"log"
 )

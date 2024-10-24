@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/d4l3k/go-pry/generate"
+	"github.com/brian-lai/go-pry/generate"
 	"github.com/pkg/errors"
 )
 

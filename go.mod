@@ -1,4 +1,4 @@
-module github.com/d4l3k/go-pry
+module github.com/brian-lai/go-pry
 
 go 1.16
 

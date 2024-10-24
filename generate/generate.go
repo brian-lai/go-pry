@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/d4l3k/go-pry/pry"
+	"github.com/brian-lai/go-pry/pry"
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 )
@@ -254,7 +254,7 @@ func (g *Generator) GetExports(importName string, files []*ast.File, added map[s
 
 // GenerateFile generates a injected file.
 func (g *Generator) GenerateFile(imports []string, extraStatements, path string) error {
-	file := "package main\nimport (\n\t\"github.com/d4l3k/go-pry/pry\"\n\n"
+	file := "package main\nimport (\n\t\"github.com/brian-lai/go-pry/pry\"\n\n"
 	for _, imp := range imports {
 		if len(imp) == 0 {
 			continue

@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/d4l3k/go-pry/generate"
+	"github.com/brian-lai/go-pry/generate"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
@@ -64,7 +64,7 @@ func generateBundle(w http.ResponseWriter, r *http.Request, packages string) (re
 
 	env := os.Environ()
 
-	for _, pkg := range append([]string{"github.com/d4l3k/go-pry/pry"}, pkgs...) {
+	for _, pkg := range append([]string{"github.com/brian-lai/go-pry/pry"}, pkgs...) {
 		if err := g.ExecuteGoCmd(r.Context(), []string{
 			"get",
 			pkg,

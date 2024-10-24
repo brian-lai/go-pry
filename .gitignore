@@ -3,3 +3,5 @@
 fuzz/
 *.coverprofile
 go-pry-test*
+
+.idea/

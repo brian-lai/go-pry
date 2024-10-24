@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/brian-lai/go-pry/pry/safebuffer"
 	"github.com/cenkalti/backoff"
-	"github.com/d4l3k/go-pry/pry/safebuffer"
 	"github.com/pkg/errors"
 )
 
@@ -134,7 +134,7 @@ func testPryApply(t testing.TB) *testPryEnv {
 	if _, err := file.Write([]byte(
 		`package main
 
-import "github.com/d4l3k/go-pry/pry"
+import "github.com/brian-lai/go-pry/pry"
 
 func main() {
 	pry.Pry()

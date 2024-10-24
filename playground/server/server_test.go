@@ -17,11 +17,11 @@ func TestNormalizePackages(t *testing.T) {
 			nil,
 		},
 		{
-			"foo, bar,github.com/d4l3k/go-pry ",
+			"foo, bar,github.com/brian-lai/go-pry ",
 			[]string{
 				"bar",
 				"foo",
-				"github.com/d4l3k/go-pry",
+				"github.com/brian-lai/go-pry",
 			},
 		},
 	}

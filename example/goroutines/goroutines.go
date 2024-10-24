@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/d4l3k/go-pry/pry"
+	"github.com/brian-lai/go-pry/pry"
 	"time"
 )
 
