@@ -18,8 +18,8 @@ Example
 
 Install go-pry
 ```bash
-go get github.com/d4l3k/go-pry
-go install -i github.com/d4l3k/go-pry
+go get github.com/brian-lai/go-pry
+go install -i github.com/brian-lai/go-pry
 
 ```
 
@@ -27,7 +27,7 @@ Add the pry statement to the code
 ```go
 package main
 
-import "github.com/d4l3k/go-pry/pry"
+import "github.com/brian-lai/go-pry/pry"
 
 func main() {
   a := 1
